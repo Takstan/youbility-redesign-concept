@@ -1,0 +1,6 @@
+{
+  "name": "Youbility Inc. | Accessible Home Renovations & Contracting",
+  "description": "Premium accessible home renovations, residential construction, and commercial barrier-free solutions across Toronto & the GTA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

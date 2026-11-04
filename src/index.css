@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --color-forest-950: #0C1A13;
+  --color-forest-900: #12281D;
+  --color-forest-800: #1B3B2B;
+  --color-forest-700: #26523C;
+  --color-forest-600: #336C50;
+  
+  --color-beige-50: #FCFAF7;
+  --color-beige-100: #FAF8F5;
+  --color-beige-200: #F3EFE7;
+  --color-beige-300: #E6DFC5;
+  --color-beige-400: #D8CEAF;
+  
+  --color-copper-500: #C27D53;
+  --color-copper-600: #A8643C;
+  --color-copper-700: #8E4E2A;
+  
+  --color-charcoal-900: #1C201D;
+  --color-charcoal-800: #29302B;
+  --color-charcoal-700: #3C463F;
+  --color-charcoal-600: #57645B;
+  --color-charcoal-500: #76867B;
+}
+
+:root {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-heading {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
