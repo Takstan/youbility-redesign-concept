@@ -18,7 +18,7 @@ export const AboutSection: React.FC<AboutProps> = ({ onOpenBooking }) => {
               
               <div className="relative rounded-3xl overflow-hidden aspect-[4/3] lg:aspect-[3/4] shadow-2xl border border-[#E8E2D5] bg-[#F3EFE7] group">
                 <img
-                  src="/src/assets/images/about_accessible_living_1793373401539.jpg"
+                  src="./images/about_accessible_living_1793373401539.jpg"
                   alt="Bright sunlit Toronto home with wide barrier-free doorways and level hardwood flooring"
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                   referrerPolicy="no-referrer"

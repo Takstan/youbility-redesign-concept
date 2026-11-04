@@ -29,7 +29,7 @@ export const ServicesSection: React.FC<ServicesProps> = ({ onOpenBooking }) => {
       headline: 'Barrier-Free Living Tailored to Your Physical Needs',
       description: 'Wheelchair-accessible bathrooms, roll-in showers, doorway widening, ramps, porch lifts, and accessible kitchens.',
       ctaText: 'Explore Accessibility Solutions',
-      image: '/src/assets/images/hero_accessible_interior_1793373399971.jpg',
+      image: './images/hero_accessible_interior_1793373399971.jpg',
       features: [
         'Curbless roll-in showers with linear trench drains',
         'Reinforced backing for 350+ lb grab bars & teak fold-down seats',
@@ -55,7 +55,7 @@ export const ServicesSection: React.FC<ServicesProps> = ({ onOpenBooking }) => {
       headline: 'Custom Home Renovations, Additions & Remodeling',
       description: 'Home renovations, additions, basement remodeling, and improvements tailored to each household.',
       ctaText: 'View Residential Services',
-      image: '/src/assets/images/about_accessible_living_1793373401539.jpg',
+      image: './images/about_accessible_living_1793373401539.jpg',
       features: [
         'Open-concept main floor layouts eliminating tight pinch points',
         'In-law suite & ground floor primary bedroom conversions',
@@ -81,7 +81,7 @@ export const ServicesSection: React.FC<ServicesProps> = ({ onOpenBooking }) => {
       headline: 'AODA Compliance for Offices, Clinics & Retail Spaces',
       description: 'Accessibility upgrades and construction solutions for offices, retail spaces, and other commercial properties.',
       ctaText: 'Explore Commercial Solutions',
-      image: '/src/assets/images/service_exterior_ramp_1793373402669.jpg',
+      image: './images/service_exterior_ramp_1793373402669.jpg',
       features: [
         'AODA-compliant commercial washroom retrofits & automatic door operators',
         'Exterior commercial concrete & steel access ramps with dual handrails',

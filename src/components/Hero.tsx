@@ -92,7 +92,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               {/* Primary Visual Container with subtle scale on entrance */}
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3] lg:aspect-[5/4] shadow-xl border border-[#E8E2D5] bg-[#F3EFE7] group">
                 <img
-                  src="/src/assets/images/hero_accessible_interior_1793373399971.jpg"
+                  src="./images/hero_accessible_interior_1793373399971.jpg"
                   alt="Luxury barrier-free accessible bathroom with curbless shower and warm oak vanity in Toronto home"
                   className="w-full h-full object-cover transition-transform duration-1000 ease-out hover:scale-105"
                   referrerPolicy="no-referrer"

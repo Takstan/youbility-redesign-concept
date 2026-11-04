@@ -24,8 +24,8 @@ export const BeforeAfterSlider: React.FC = () => {
       category: 'Accessible Bathroom',
       title: 'Curbless Roll-In Suite Transformation',
       location: 'North York, ON',
-      beforeImage: '/src/assets/images/transform_bathroom_before_1793373402776.jpg',
-      afterImage: '/src/assets/images/transform_bathroom_after_1793373402000.jpg',
+      beforeImage: './images/transform_bathroom_before_1793373402776.jpg',
+      afterImage: './images/transform_bathroom_after_1793373402000.jpg',
       beforeDescription: 'Hazardous 18" bathtub step-over, narrow 28" door, zero grab support, slippery linoleum.',
       afterDescription: 'Zero-threshold roll-in curbless shower, 36" wide entry, concealed structural grab rails, anti-slip porcelain.',
       improvements: [
@@ -40,8 +40,8 @@ export const BeforeAfterSlider: React.FC = () => {
       category: 'Exterior Entrance & Ramp',
       title: 'Architectural Garden Ramp & Level Entry',
       location: 'Etobicoke, ON',
-      beforeImage: '/src/assets/images/transform_ramp_before_1793375077375.jpg',
-      afterImage: '/src/assets/images/service_exterior_ramp_1793373402669.jpg',
+      beforeImage: './images/transform_ramp_before_1793375077375.jpg',
+      afterImage: './images/service_exterior_ramp_1793373402669.jpg',
       beforeDescription: 'Steep 4-step concrete porch stairs causing isolation and fall risk.',
       afterDescription: 'Gentle 1:12 slope cedar and stone ramp blended seamlessly with residential garden landscaping.',
       improvements: [
@@ -56,8 +56,8 @@ export const BeforeAfterSlider: React.FC = () => {
       category: 'Kitchen & Barrier-Free Living',
       title: 'Open-Concept Barrier-Free Main Floor',
       location: 'Markham, ON',
-      beforeImage: '/src/assets/images/transform_kitchen_before_1793375078038.jpg',
-      afterImage: '/src/assets/images/about_accessible_living_1793373401539.jpg',
+      beforeImage: './images/transform_kitchen_before_1793375078038.jpg',
+      afterImage: './images/about_accessible_living_1793373401539.jpg',
       beforeDescription: 'Compartmentalized rooms, 30" pinch points, high upper cabinets unreachable from seated position.',
       afterDescription: 'Wide 42" circulation corridors, smooth hardwood level transitions, pull-down shelves, luxury finish.',
       improvements: [
